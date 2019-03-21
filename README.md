@@ -24,7 +24,7 @@ var jekyllup = require('jekyllup');
 ```
 
 ## Why Use this Library?
-jekyllup makes development of JekyllUp themes easier. Jekyll themes are a very important part of using the Jekyll for website development. We strongly support Jekyll themes that take advantage of  technologies such as Gulp, Webpack, Browsersync, and others. This library aims to add functionality to themes developed using these technologies.
+The JekyllUp library makes development of JekyllUp themes easier. Jekyll themes are a very important part of using the Jekyll for website development. We strongly support Jekyll themes that take advantage of technologies such as Gulp, Webpack, Browsersync, and others. This library aims to add functionality to themes developed using these technologies.
 
 <!-- ## Projects Using this Library
 [JekyllUp](https://jekyllup.com): A website devoted to sharing the best Jekyll themes.<br> -->

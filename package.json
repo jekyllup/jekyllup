@@ -1,6 +1,6 @@
 {
   "name": "jekyllup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Collection of useful functions for streamlined development for JekyllUp.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/jekyllup/jekyllup-npm.git"
   },
   "keywords": [
-    "library"
+    "jekyllup"
   ],
   "author": "ITW Creative Works",
   "license": "ISC",
