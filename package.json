@@ -1,6 +1,6 @@
 {
   "name": "jekyllup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of useful functions for streamlined development for JekyllUp.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,5 @@
   "bugs": {
     "url": "https://github.com/jekyllup/jekyllup-npm/issues"
   },
-  "homepage": "https://github.com/jekyllup/jekyllup-npm#readme"
+  "homepage": "https://jekyllup.com"
 }
