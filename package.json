@@ -1,0 +1,22 @@
+{
+  "name": "jekyllup",
+  "version": "1.0.0",
+  "description": "Collection of useful functions for streamlined development for JekyllUp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekyllup/jekyllup-npm.git"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "ITW Creative Works",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jekyllup/jekyllup-npm/issues"
+  },
+  "homepage": "https://github.com/jekyllup/jekyllup-npm#readme"
+}
