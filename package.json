@@ -1,6 +1,6 @@
 {
   "name": "jekyllup",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "JekyllUp is a free theme database for Jekyll websites",
   "main": "./dist/index.js",
   "scripts": {
