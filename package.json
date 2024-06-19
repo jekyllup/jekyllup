@@ -1,23 +1,48 @@
 {
   "name": "jekyllup",
-  "version": "1.0.3",
-  "description": "Collection of useful functions for streamlined development for JekyllUp.",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "JekyllUp is a free theme database for Jekyll websites",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run prepare && ./node_modules/mocha/bin/mocha test/ --recursive --timeout=10000",
+    "prepare": "node -e \"require('prepare-package')()\"",
+    "prepare:watch": "nodemon -w ./src -e '*' --exec 'npm run prepare'"
   },
+  "engines": {
+    "node": ">=12"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jekyllup/jekyllup-npm.git"
+    "url": "git+https://github.com/jekyllup/jekyllup"
   },
   "keywords": [
-    "jekyllup",
-    "jekyll themes"
+    "jekyllup"
   ],
   "author": "ITW Creative Works",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jekyllup/jekyllup-npm/issues"
+    "url": "https://github.com/jekyllup/jekyllup/issues"
   },
-  "homepage": "https://jekyllup.com"
+  "homepage": "https://jekyllup.com",
+  "preparePackage": {
+    "input": "./src",
+    "output": "./dist",
+    "replace": {}
+  },
+  "dependencies": {
+    "itwcw-package-analytics": "^1.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "prepare-package": "^1.1.12"
+  }
 }
